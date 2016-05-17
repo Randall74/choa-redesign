@@ -1,0 +1,475 @@
+<!--[if IE]><[endif]-->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+    
+<!-- ***All external links must be HTTPS:// -->
+
+	<title>Children's Healthcare of Atlanta</title>
+
+
+
+<!-- iOS viewport -->	
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1"/>
+
+<!-- favicon -->
+<!-- We will need the new URL, once the main site is live -->
+<link rel="shortcut icon" href="http://choadev.herokuapp.com/Content/Childrens/assets/images/choaCon.ico" type="image/x-icon" />
+	
+
+<!-- type -->
+<!-- Custom Icons -->
+<link rel="stylesheet" href="https://Randall74.github.io/css-hosting/icon-fonts.css" type="text/css" />
+<!-- Google Fonts: Nunito = Gotham Rounded. https://www.google.com/fonts/#UsePlace:use/Collection:Nunito:700,400, 300 -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nunito:700">	
+
+<!-- Bootstrap's Font Awesome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-aNUYGqSUL9wG/vP7+cWZ5QOM4gsQou3sBfWRr/8S3R1Lv0rysEmnwsRKMbhiQX/O" crossorigin="anonymous">
+
+<!-- Bootstrap and other CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Main Style Sheets -->
+<!-- Reset -->
+<link rel="stylesheet" href="https://Randall74.github.io/css-hosting/nav-footer.css" type="text/css" />
+
+
+<!-- desktop.css for IE8 and below removes media queries -->
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="Content/Childrens/assets/styles/legacy.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="https://Randall74.github.io/css-hosting/main.min.css" type="text/css" />
+<!--<![endif]-->
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<!-- jQuery Base -->
+<script   src="https://code.jquery.com/jquery-2.1.3.min.js"   integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM="   crossorigin="anonymous"></script>
+
+</head>
+
+
+<body data-spy="scroll" data-target=".scrollspy"> <!-- invoke scrollspy in body tag. -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="yamm navbar navbar-default">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a href="/home.html" class="logoLink">
+                    <img src="images/logo.png" class="img-responsive visible-xs" id="image2" alt="Children's Banner" />
+                </a>
+                </div>
+                
+                <div id="navbar" class="navbar-collapse collapse">
+                    <div class="container navbar-bg-col">
+                        
+                        <!-- Logo -->
+                        <div class="logo hidden-xs">
+                            <a href="/home.html">
+                                <img id="desktop-logo" class="img-responsive" src="images/logo_choa-noBanner.png" alt="Child banner" />
+                            </a>
+                        </div>
+                        
+                    </div> <!-- END container -->
+                    <div class="container navbar-bg-col-1">
+                        <div class="nav navbar-bg-col-1 col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <ul class="nav navbar-nav clearfix" id="subnav-1">
+                                
+						    <!-- 
+								- modified the secondary (green) nav section
+							    - renamed the menu items
+							 	- lined up "green menu" items by adding hidden list elements
+							 		- span tags would not work, because it pushed the search icon out of the container
+						 		- 
+						  	-->
+						  	<!--
+						  		TODO LIST:
+						  		- add working URLs
+						  		- locate suitable icons for each menu item
+						  		- 
+						  	-->
+                                <li>
+									<a href="#" style="visibility:hidden;"><span class="fa fa-file-text-o hidden-xs" aria-hidden="true"></span>Contact Us</a>
+								</li> 
+								<li>
+									<a href="#"><span class="fa fa-home hidden-xs" aria-hidden="true"></span>Home</a>
+								</li>
+								<li>
+									<a href="#"><span class="fa fa-sign-in hidden-xs" aria-hidden="true"></span>Login/Logout</a>
+								</li>
+								<li>
+									<a href="#"><span class="fa fa-calendar hidden-xs" aria-hidden="true"></span>Events</a>
+								</li> 
+								<li>
+									<a href="#"><span class="fa fa-file-text-o hidden-xs" aria-hidden="true"></span>Contact Us</a>
+								</li> 
+								<li>
+									<a href="#"><span class="fa fa-users hidden-xs" aria-hidden="true"></span>Profile Update</a>
+								</li>
+
+                                <div class="hidden-xs topContainer"></div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    
+	<!-- Mobile Nav -->
+	<div class="search-mobile hidden-md hidden-lg">
+		<!-- Page Navigation -->
+		<div class="page-navigation">
+
+			<div class="search-nav-mobile-header">
+				<i class="fa fa-times"></i>
+				<p class="sub-head">Search</p>
+			</div>
+			<div class="topContainer">
+				<form class="searchbox searchbox-open">
+					<input type="search" placeholder="I'm looking for..." name="search" class="searchbox-input-small" onkeyup="buttonUpSmall();" required>
+					<input type="submit" class="searchbox-submit" value="Go">
+					<!-- was 'searchbox-icon'. Added '-go' to break un-needed toggle. -->
+					<span class="searchbox-icon-go"><i class="fa fa-search fa-lg"></i></span>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="carousel slide hero-carousel" data-ride="carousel">
+
+		<!-- Hero image -->
+		<!-- Don't need carousel-number in item class below for each hero. Commented. -->
+		<div class="hero-container carousel-inner" role="listbox">
+
+
+			<div class="item  active" title="Dedicated To All Better.">
+				<!-- <div class="jumbotron" title="">
+					<img src="images/ways-to-donate.jpg" class="hero-image img-responsive" alt="">
+					<div class="jumboOverlay">
+						<div class="jumboChild vcenter">
+							<img src="" class="img-responsive page-content image-icon" alt="">
+							<h1 class="col-white">This text can be changed</h1>
+
+							<div class="hero-headline hidden-xs hidden-sm">
+								<p>So can this...</p>
+								<p>Thank you for choosing to support Children’s. No matter the size of your fundraiser, you can make a difference. Your generosity will help make miracles happen for thousands of children in Georgia.</p>
+							</div>
+
+							<div class="hero-event hidden-xs hidden-sm">
+								<div class="event-date">
+									<i class="fa fa-calendar"></i>
+									<p></p>
+								</div>
+								<div class="event-location">
+									<i class="fa fa-map-marker"></i>
+									<p></p>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div> -->
+			</div>
+
+		</div>
+    
+    <!-- Opening page statement for mobile -->
+    <div class="hero-headline-mobile hero-event- hidden-md hidden-lg row">
+        
+        <!-- Hero Headline -->
+        <div class="hero-headline">
+			<p>Thank you for choosing to support Children&#39;s. 
+			No matter the size of your fundraiser, you can make 
+			a difference. Your generosity will help make miracles
+			happen for thousands of children in Georgia.</p>
+        </div>
+
+    </div>
+    
+    <!-- Content goes no bigger than 1400px -->
+    <div class="constrain-width">
+        
+        
+        <!-- main content row -->
+        <div class="row">
+            
+            <div class="content-panels col-md-9">
+                
+                
+                <section id="nav-anchor-1">
+                    <div class="panel panel-default col-md-12 clearfix">
+                        
+                        <div class="panel-heading">
+                            <h2 class="panel-title">Biggest, Bestest Event Title Here</h2>
+                        </div>
+                        
+                        <div class="panelWrapper col-md-12 clearfix">
+                            <div class="panel-body">
+                                
+                                <div class="row">
+                                    <p class="subhead">Welcome to this year's event!</p>
+                                    
+                                
+                                <div class="row">
+                                    <p class="paragraph-content">This is paragraph content. 
+                                    Lorem Ipsum is simply dummy text of the printing and 
+                                    typesetting industry. Lorem Ipsum has been the industry's 
+                                    standard dummy text ever since the 1500s, when an unknown 
+                                    printer took a galley of type and scrambled it to make a 
+                                    type specimen book.</p>
+                                    
+                                    <p class="paragraph-content">This is paragraph content.
+                                    Lorem Ipsum is simply dummy text of the printing and 
+                                    typesetting industry. Lorem Ipsum has been the industry's 
+                                    standard dummy text ever since the 1500s, when an unknown 
+                                    printer took a galley of type and scrambled it to make a 
+                                    type specimen book.</p>
+                                </div>
+                            </div> <!-- END Panel Body -->
+                        </div> <!-- END panelWrapper -->
+                    </div> <!-- END panel -->
+                </section> <!-- END Section1 -->
+            </div> <!-- END content panels -->
+            
+            <!-- Mobile Nav -->
+            <div id="page-nav-mobile" class="hidden-md hidden-lg">
+                <ul class="nav">
+                    <!-- Page Navigation -->
+                    <div class="page-navigation">
+                        <div class="nav">
+                            
+                            <!-- Featured Nav Section -->
+                            <div class="floating-nav" id="feat-nav-sec">
+                                <ul class="nav">
+                                    
+                                </ul>
+                            </div>
+                            
+                            <!-- Related Topics -->
+                            <div class="floating-nav" id="related-nav-sec">
+                                <p class="sub-head">Related Topics</p>
+                                <ul class="nav">
+                                    
+                                    <li class="nav-item">
+                                        <a href="#">
+                                            <p class="nav-title">Contact</p>
+                                            <i class="fa fa-chevron-right nav-arrow"></i>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a href="#">
+                                            <p class="nav-title">Let's Be Friends</p>
+                                            <i class="fa fa-chevron-right nav-arrow"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#">
+                                            <p class="nav-title">FAQs</p>
+                                            <i class="fa fa-chevron-right nav-arrow"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            
+            <!-- Desktop Nav - Floating -->
+            
+            <div class="side-nav-container col-md-3 scrollspy sidebar" role="complementary">
+                <!-- repeat "col-md-2" here so it degrades more gracefully -->
+                <div id="page-nav" class="nav hidden-xs hidden-sm">
+                    
+                    <!-- Page Navigation -->
+                    <div class="page-navigation">
+                        
+                        <div class="inputWrapper hidden-md hidden-lg">
+                            
+                            
+                            <!-- Inline Date $ Time - desktop -->
+                            <div class="container">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="datetimepickerInline"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Featured Nav Section -->
+                        <div class="floating-nav" id="feat-nav-sec">
+                            <ul class="nav">
+                                
+                                
+                            </ul>
+                        </div>
+                        
+                        <div class="floating-nav" id="news-nav-section" style="display:none;">
+                            <p class="sub-head">News</p>
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <p class="article-title">Capes Are Arriving</p>
+                                        <p class="article-date">May 30, 2016</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Goto Nav Section -->
+                    <div class="floating-nav" id="goto-nav-sec">
+                        <p class="sub-head">Contact</p>
+                        <ul class="nav section-nav">
+                            
+                            <li class="nav-item">
+                                <a href="#">
+                                    <p class="nav-title">Name of Event Organizer</p>
+                                </a>
+								<!--
+									Created a new list style, in order to make the contact's
+									information appear just below their name.
+									
+									I will need to create a new class and add it to the 
+									site's stylesheet.
+								-->
+								<li style="display:table-cell;vertical-align:middle;height:100%;width:90%;color:#666;background-color:#F0EFEC;padding:7px 7px 7px 10px;margin:0;font-family:Nunito,Arial,Helvetica,sans-serif;font-size:.95em">
+							        <span style="font-weight: bold;">Children's Healthcare of Atlanta</span><br>
+							        1577 NE Expressway<br>
+							        Suite A<br>
+							        Atlanta, GA<br>
+							        contact.contact@choa.org<br>
+									404.785.xxxx
+							    </li>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="#">
+                                    <p class="nav-title">Let's Be Friends</p>
+                                </a>
+                                <li style="display:table-cell;vertical-align:middle;height:100%;width:90%;color:#666;background-color:#F0EFEC;padding:7px 7px 7px 10px;margin:0;font-family:Nunito,Arial,Helvetica,sans-serif;font-size:.95em">
+                                    There are more than 37 Community Friends groups that
+                                    support Children's through volunteer opportunities, 
+                                    fundraising events and special service projects.<br><br>
+									Are you interested in becoming a Community Friends 
+									member? Or, do you need to renew your dues for this 
+									year? Join us today!
+                                </li>
+                            </li>
+                            
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <p class="nav-title">FAQs</p>
+    									<!--
+    										I left the chevron-style navigation arrow in place,
+    										in case we decide that we would like for this to take
+    										the end-user to a seperate page (a new FAQs page)
+    										
+    										Or, I can make this a drop-down option.
+    									-->
+    									<!-- <i class="fa fa-chevron-right nav-arrow"></i> -->
+                                    </a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- END constrain-width -->
+    
+    <div class="sticky-stop"></div>
+    
+    <div class="container-fluid">
+    <footer class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="container">
+            <div class="row">
+                <ul class="row-social clearfix">
+                        <li>
+                            <a href="http://www.facebook.com/ChildrensHealthcareofAtlanta" target="_blank"><img src="https://prd-ca-choa.choa.org/~/media/images/Childrens/social-connections/facebook.png" alt="Facebook"></a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com/childrensatl" target="_blank"><img src="https://prd-ca-choa.choa.org/~/media/images/Childrens/social-connections/twitter.png" alt="Twitter"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.instagram.com/childrensatl" target="_blank"><img src="https://prd-ca-choa.choa.org/~/media/images/Childrens/social-connections/instagram.png" alt="Instagram"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.linkedin.com/company/9553?trk=tyah" target="_blank"><img src="https://prd-ca-choa.choa.org/~/media/images/Childrens/social-connections/linkedin.png" alt="LinkedIn"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.dedicatedtoallbetter.org/" target="_blank"><img src="https://prd-ca-choa.choa.org/~/media/images/Childrens/social-connections/blog.png" alt="Blog"></a>
+                        </li>
+
+                </ul>
+            </div>
+
+            
+
+            <div class="row">
+                <ul class="row-copyright clearfix">
+                    <li>
+                            <a href="/about-us/terms-and-conditions">Terms of Use</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                            <a href="/patients/before-you-arrive/patient-and-parent-rights-and-responsibilities/privacy-policy">Patient Privacy</a>
+                    </li>
+                    <li class="copyright">&copy;2016 Children's Healthcare of Atlanta Inc. All Rights Reserved.</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+</div>
+    
+    
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+		<!-- Assemble Display Javascript-->
+		<script src="https://Randall74.github.io/css-hosting/assemble-display.js"></script>
+
+		<!-- Waypoints Javascript-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+
+		<!-- Polyfills? -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.1.2/jquery.placeholder.min.js"></script>
+
+		<!-- Bootstrap core JavaScript-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<!-- Custom JS -->
+		<script src="https://Randall74.github.io/css-hosting/choa.js"></script>
+
+		<!-- Right Rail JS -->
+		<script src="https://Randall74.github.io/css-hosting/rail.js"></script> 
+
+		<!-- Video Lightbox -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.css"></script>
+
+		<!-- custom jQ mobile - touch events -->
+		<script src="https://Randall74.github.io/css-hosting/jquery.mobile.custom.touch.min.js"></script>
+
+
+</body>
+
+
+
+</html>
